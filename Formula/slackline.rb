@@ -1,22 +1,22 @@
 class Slackline < Formula
   desc "Read-only Slack CLI for AI agents"
   homepage "https://github.com/co42/slackline"
-  version "0.3.0"
+  version "0.3.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/co42/slackline/releases/download/v0.3.0/slackline-v0.3.0-aarch64-apple-darwin.tar.gz"
-      sha256 "f58369c27133956d835008129c0e7104e1c07841a0c52e5b3baeedc36189d4ea"
+      url "https://github.com/co42/slackline/releases/download/v0.3.1/slackline-v0.3.1-aarch64-apple-darwin.tar.gz"
+      sha256 "eca31e40bccc8bd1843272a13ed70d60706af1c3a010a409e059ee64c9a9c0de"
     else
-      url "https://github.com/co42/slackline/releases/download/v0.3.0/slackline-v0.3.0-x86_64-apple-darwin.tar.gz"
-      sha256 "51b77cd693f24e0b4f34fbe10f252b2ba64d43956ff1be877cd70d797260939c"
+      url "https://github.com/co42/slackline/releases/download/v0.3.1/slackline-v0.3.1-x86_64-apple-darwin.tar.gz"
+      sha256 "12636e55c903e5415941e1243ca2fed6f9c3ff8913e74817849143e30bf68c00"
     end
   end
 
   on_linux do
-    url "https://github.com/co42/slackline/releases/download/v0.3.0/slackline-v0.3.0-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "0125a63ee10943023064f6620b62113d3637c87e0dcb3c0860dfe1ab55e15e00"
+    url "https://github.com/co42/slackline/releases/download/v0.3.1/slackline-v0.3.1-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "722d9ca4f65def2017fddfbe8364865d22688ef1b0c9097c823c42d3f1c1afe5"
   end
 
   def install
