@@ -2,7 +2,7 @@ class Slackline < Formula
   desc "Read-only Slack CLI for AI agents"
   homepage "https://github.com/co42/slackline"
   url "https://github.com/co42/slackline/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed"
+  sha256 "2634687d0018c7ccff75db8fd1fb6f37b8d860e735968c595a1c4bd4198914ca"
   license "MIT"
   head "https://github.com/co42/slackline.git", branch: "main"
 
